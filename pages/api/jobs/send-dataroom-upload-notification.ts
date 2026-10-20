@@ -4,7 +4,7 @@ import { sendDataroomUploadNotification } from "@/lib/emails/send-dataroom-uploa
 import { log } from "@/lib/utils";
 
 export const config = {
-  maxDuration: 120,
+  maxDuration: 300,
 };
 
 export default async function handle(

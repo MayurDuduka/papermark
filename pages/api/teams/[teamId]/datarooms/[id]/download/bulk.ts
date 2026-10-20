@@ -14,7 +14,7 @@ import { bulkDownloadTask } from "@/lib/trigger/bulk-download";
 import { CustomUser } from "@/lib/types";
 
 export const config = {
-  maxDuration: 60, // Reduced since we're just triggering the async task
+  maxDuration: 300, // Reduced since we're just triggering the async task
 };
 
 export default async function handler(

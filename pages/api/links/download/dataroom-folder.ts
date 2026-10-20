@@ -16,7 +16,7 @@ import { safeSlugify } from "@/lib/utils";
 import { getIpAddress } from "@/lib/utils/ip";
 
 export const config = {
-  maxDuration: 60,
+  maxDuration: 300,
 };
 
 export default async function handler(

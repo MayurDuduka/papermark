@@ -16,7 +16,7 @@ export { authOptions } from "@/lib/auth/auth-options";
 
 // This function can run for a maximum of 180 seconds
 export const config = {
-  maxDuration: 180,
+  maxDuration: 300,
 };
 
 const getAuthOptions = (req: NextApiRequest): NextAuthOptions => {

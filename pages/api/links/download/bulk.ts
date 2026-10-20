@@ -15,7 +15,7 @@ import { bulkDownloadTask } from "@/lib/trigger/bulk-download";
 import { getIpAddress } from "@/lib/utils/ip";
 
 export const config = {
-  maxDuration: 60,
+  maxDuration: 300,
 };
 
 export default async function handle(

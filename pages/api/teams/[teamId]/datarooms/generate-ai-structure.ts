@@ -16,7 +16,7 @@ import { CustomUser } from "@/lib/types";
 import { authOptions } from "../../../auth/[...nextauth]";
 
 export const config = {
-  maxDuration: 120,
+  maxDuration: 300,
 };
 
 // Non-recursive folder schema with fixed depth (max 2 levels)

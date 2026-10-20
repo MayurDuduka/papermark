@@ -13,7 +13,7 @@ import { log } from "@/lib/utils";
 import type { TeamNotificationType } from "@/lib/zod/schemas/notifications";
 
 export const config = {
-  maxDuration: 60,
+  maxDuration: 300,
 };
 
 export default async function handle(
